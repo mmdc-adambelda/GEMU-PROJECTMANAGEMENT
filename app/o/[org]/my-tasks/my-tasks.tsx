@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { SimpleSelect } from "@/components/app/simple-select";
 import { DueBadge, PriorityIcon } from "@/components/app/task-chips";
-import { orgPath } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { Checkbox } from "@/components/ui/checkbox";
 import { updateTaskAction } from "@/features/tasks/actions";
 import { runAction } from "@/lib/hooks/use-run-action";

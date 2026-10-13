@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Mail } from "lucide-react";
 import { DueBadge, PriorityIcon, StatusPill } from "@/components/app/task-chips";
-import { orgPath } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { UserAvatar } from "@/components/app/user-avatar";
 import { getOrgContext, getProfile } from "@/lib/auth/session";
 import { getWorkload } from "@/lib/data/stats";

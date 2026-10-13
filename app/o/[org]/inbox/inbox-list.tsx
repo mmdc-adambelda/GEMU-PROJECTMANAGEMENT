@@ -4,7 +4,7 @@ import { AtSign, Bell, CheckCheck, Clock, GitPullRequestArrow, MessageSquare, Tr
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { orgPath } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { UserAvatar } from "@/components/app/user-avatar";
 import { Button } from "@/components/ui/button";
 import { deleteNotificationAction, markAllNotificationsReadAction, markNotificationReadAction } from "@/features/notifications/actions";

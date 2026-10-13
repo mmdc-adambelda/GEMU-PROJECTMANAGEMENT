@@ -4,7 +4,7 @@ import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetDescription, SheetTitle } from "@/components/ui/sheet";
-import { orgPath } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import type { DetailEnv } from "./env";
 import { TaskDetail } from "./task-detail";
 

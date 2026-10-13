@@ -7,7 +7,7 @@ import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from
 import { toast } from "sonner";
 import { ActivityList } from "@/components/app/activity-list";
 import { IconTile } from "@/components/app/icon";
-import { orgPath } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { UserAvatar } from "@/components/app/user-avatar";
 import { updatePreferencesAction } from "@/features/account/actions";
 import { moveTaskAction, updateTaskAction } from "@/features/tasks/actions";

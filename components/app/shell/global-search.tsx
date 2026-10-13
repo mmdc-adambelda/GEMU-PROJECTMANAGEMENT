@@ -3,7 +3,8 @@
 import { FolderKanban, Layers, ListChecks, Search, User } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { orgPath, useShell } from "@/components/app/shell/shell-context";
+import { useShell } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { Button } from "@/components/ui/button";
 import { Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
 import { createClient } from "@/lib/supabase/client";

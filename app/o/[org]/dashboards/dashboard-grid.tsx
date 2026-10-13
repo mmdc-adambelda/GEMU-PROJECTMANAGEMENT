@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { ActivityList } from "@/components/app/activity-list";
 import { FlowChart, HBarChart } from "@/components/app/charts";
-import { orgPath } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { saveDashboardConfigAction } from "@/features/views/actions";

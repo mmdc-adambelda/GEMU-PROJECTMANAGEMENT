@@ -25,4 +25,3 @@ export function useShell() {
   return v;
 }
 
-export const orgPath = (slug: string, path = "") => `/o/${slug}${path}`;

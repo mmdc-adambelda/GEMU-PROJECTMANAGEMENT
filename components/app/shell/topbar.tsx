@@ -8,7 +8,8 @@ import { Fragment, useMemo, useState, useSyncExternalStore } from "react";
 import { GlobalSearch } from "@/components/app/shell/global-search";
 import { NotificationBell } from "@/components/app/shell/notification-bell";
 import { SidebarContent } from "@/components/app/shell/sidebar";
-import { orgPath, useShell } from "@/components/app/shell/shell-context";
+import { useShell } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { UserAvatar } from "@/components/app/user-avatar";
 import { Button } from "@/components/ui/button";
 import {

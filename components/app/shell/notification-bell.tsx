@@ -5,7 +5,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
-import { orgPath, useShell } from "@/components/app/shell/shell-context";
+import { useShell } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { Button } from "@/components/ui/button";
 import { createClient } from "@/lib/supabase/client";
 

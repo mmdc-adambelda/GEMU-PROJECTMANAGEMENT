@@ -10,7 +10,8 @@ import { useMemo, useState, useTransition, type ReactNode } from "react";
 import { toast } from "sonner";
 import { IconTile } from "@/components/app/icon";
 import { LogoMark } from "@/components/app/logo";
-import { orgPath, useShell } from "@/components/app/shell/shell-context";
+import { useShell } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger,

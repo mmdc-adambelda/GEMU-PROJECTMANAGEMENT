@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BurndownChart, FlowChart } from "@/components/app/charts";
-import { orgPath } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { getOrgContext } from "@/lib/auth/session";
 import { getWorkload } from "@/lib/data/stats";
 import { createClient } from "@/lib/supabase/server";

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { AlertTriangle, CheckCircle2, FolderKanban, ListChecks, Rocket } from "lucide-react";
 import { ActivityList } from "@/components/app/activity-list";
 import { DueBadge, PriorityIcon } from "@/components/app/task-chips";
-import { orgPath } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { Button } from "@/components/ui/button";
 import { getOrgContext, getProfile } from "@/lib/auth/session";
 import { getMembers } from "@/lib/data/project";

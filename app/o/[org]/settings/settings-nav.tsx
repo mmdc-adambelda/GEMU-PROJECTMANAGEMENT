@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { orgPath, useShell } from "@/components/app/shell/shell-context";
+import { useShell } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { cn } from "@/lib/utils";
 
 export function SettingsNav() {

@@ -3,7 +3,7 @@
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { orgPath } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import type { DetailEnv } from "@/features/tasks/detail/env";
 import { TaskDetail } from "@/features/tasks/detail/task-detail";
 import type { TaskDetailData } from "@/lib/data/task-detail";

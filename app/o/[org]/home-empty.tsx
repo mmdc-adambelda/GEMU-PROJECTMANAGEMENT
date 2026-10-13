@@ -2,7 +2,8 @@
 
 import { FolderKanban, Layers, Rocket, Users } from "lucide-react";
 import Link from "next/link";
-import { useShell, orgPath } from "@/components/app/shell/shell-context";
+import { useShell } from "@/components/app/shell/shell-context";
+import { orgPath } from "@/lib/paths";
 import { Button } from "@/components/ui/button";
 import { CreateProjectDialog } from "@/features/projects/create-project-dialog";
 import { CreateSpaceDialog } from "@/features/spaces/create-space-dialog";
