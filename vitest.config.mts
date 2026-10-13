@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: { alias: { "@": resolve(__dirname) } },
   test: {
     environment: "node",
-    include: ["tests/**/*.test.ts"],
+    include: ["tests/**/*.test.{ts,tsx}"],
     testTimeout: 60_000,
     hookTimeout: 120_000,
   },
